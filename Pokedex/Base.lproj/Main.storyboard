@@ -21,26 +21,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ghb-RB-re7">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Bk-gj-0ql">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
-                                <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="FvQ-MI-Z9R"/>
+                                    <constraint firstAttribute="height" constant="65" id="pjP-d3-ru4"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bR8-i6-Gyk">
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Vwu-y5-z1r">
                                 <rect key="frame" x="0.0" y="65" width="375" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="yjY-qe-Jxg"/>
+                                    <constraint firstAttribute="height" constant="44" id="Ekz-Xh-d09"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="bR8-i6-Gyk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1Ir-xd-vJE"/>
-                            <constraint firstItem="bR8-i6-Gyk" firstAttribute="top" secondItem="ghb-RB-re7" secondAttribute="bottom" id="2Xt-Bi-Yqn"/>
-                            <constraint firstAttribute="trailing" secondItem="bR8-i6-Gyk" secondAttribute="trailing" id="5g5-7L-PGc"/>
+                            <constraint firstItem="2Bk-gj-0ql" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KaN-TU-7ky"/>
+                            <constraint firstAttribute="trailing" secondItem="Vwu-y5-z1r" secondAttribute="trailing" id="dek-Vh-QF0"/>
+                            <constraint firstItem="Vwu-y5-z1r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fiZ-8S-0BM"/>
+                            <constraint firstItem="Vwu-y5-z1r" firstAttribute="top" secondItem="2Bk-gj-0ql" secondAttribute="bottom" id="naN-FJ-6dL"/>
+                            <constraint firstAttribute="trailing" secondItem="2Bk-gj-0ql" secondAttribute="trailing" id="sGk-fu-Kjo"/>
+                            <constraint firstItem="2Bk-gj-0ql" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vbb-sa-ePT"/>
                         </constraints>
                     </view>
                 </viewController>
